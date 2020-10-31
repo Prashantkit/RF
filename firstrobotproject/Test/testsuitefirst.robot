@@ -8,13 +8,10 @@ Test Teardown    Log  i am inside Test Teardown
 *** Test Cases ***
 myfirsttest
     Log    Hello world ...    
-    Open Browser    https://www.google.com/  gc
-    Input Text    name=q    Automation     
-    Set Browser Implicit Wait    10
-    Press Keys    name=q  RETURN 
-    testing     "Prashant"
-    Close Browser
 
+mytwotest
+    Log    Hello world ... 
+    
 SeleniumTestCase
     Open Browser   ${URL}     chrome
     LoginKW
