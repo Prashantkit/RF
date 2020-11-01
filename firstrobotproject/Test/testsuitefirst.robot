@@ -11,7 +11,10 @@ myfirsttest
 
 mytwotest
     Log    Hello world ... 
-    
+
+threeTest
+    Log    Hello world ...     
+
 SeleniumTestCase
     Open Browser   ${URL}     chrome
     LoginKW
